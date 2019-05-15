@@ -165,14 +165,14 @@ htar -xvf forhpss.tar
 
 When you want to transfer files from or to outside the OLCF systems and there is no Globus, you can use the **scp** command. Always, use it from outside the OLCF resources in order to work
 
-* In order to transfer the file file.txt from your home folder to your local system, execute from your local system, while you declare your OLCF username:
+* In order to transfer the file file.txt from your remote home folder to your local system, execute from your local system, while you declare your OLCF username:
 
 ```
 scp username@dtn.ccs.ornl.gov:/ccs/home/username/file.txt .
 ```
 
-To transfer from your local system to your home, execute:
+To transfer from your local system to your remote home, execute from your local system:
 
 ```
-scp file.txt $USER@dtn.ccs.ornl.gov:/ccs/home/username/
+scp file.txt username@dtn.ccs.ornl.gov:/ccs/home/username/
 ```
