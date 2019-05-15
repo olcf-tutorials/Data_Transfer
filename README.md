@@ -15,7 +15,7 @@ Globus provides a secure, unified interface to your research data. Use Globus to
 
 <div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/choose_organization.png?raw=true" width="65%"/></div>
 
-* Use your credential to logins (it depends on the institution that you work for)
+* Use your credential to logins (it depends on the institution that you work for). IF AND ONLY IF your organization is not the list and you still want to use Globus, then install it on a system and declare an endpoint, use the instructions from https://www.globus.org/globus-connect-personal
 
 <div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/credentials.png?raw=true" width="55%"/></div>
 
