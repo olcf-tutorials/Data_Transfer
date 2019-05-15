@@ -61,12 +61,53 @@ For optimal transfer performance, we recommend sending a file of 768 GB or large
 
 When retrieving data from a tar archive larger than 1 TB, we recommend that you pull only the files that you need rather than the full archive. Examples of this will be given in the htar section below.
 
+On HPSS, we save generic files in /home/username and project related to /proj/projectid/username
+
+Go to the hpss folder
+
+```
+cd hpss
+```
+
 Examples of **hsi** command:
 
 * List your files
 
 ```
 hsi ls
+```
+* Put the fille **smallfile.txt** on HPSS
+
+```
+hsi put smallfile.txt
+```
+
+You will see in the output something like:
+put  'smallfile.txt' : '/home/gmarkoma/smallfile.txt' ( 4 bytes, 1.3 KBS (cos=11))
+This means that it was successful.
+
+* Delete the file from the HPSS
+
+```
+hsi rm smallfile.txt
+```
+
+* Create a directroty called testing
+
+```
+hsi mkdir testing
+```
+
+* Put the fille **smallfile.txt** in the testing folder
+
+```
+hsi “cd testing; put smallfile.txt”
+```
+
+* Check the contents of the folder testing
+
+```
+hsi ls /home/$USER/testing/
 ```
 
 * Get a directory from HPSS to your current folder
