@@ -53,3 +53,48 @@ If you want to use the archiving system, HPSS with Globus, the only difference w
 
 <div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/globus_hpss_4_options.png?raw=true" width="75%"/></div>
 
+## HPSS Tools
+
+Currently, **HSI** and **HTAR** are offered for archiving data into HPSS or retrieving data from the HPSS archive. For better performance connect to DTN and execute the hsi/htar commands from there.
+
+For optimal transfer performance, we recommend sending a file of 768 GB or larger to HPSS. The minimum file size that we recommend sending is 512 MB. HPSS will handle files between 0K and 512 MB, but write and read performance will be negatively affected. For files smaller than 512 MB we recommend bundling them with HTAR to achieve an archive file of at least 512 MB.
+
+When retrieving data from a tar archive larger than 1 TB, we recommend that you pull only the files that you need rather than the full archive. Examples of this will be given in the htar section below.
+
+Examples of **hsi** command:
+
+* List your files
+
+```
+hsi ls
+```
+
+* Get a directory from HPSS to your current folder
+
+```
+hsi get -R hpss_directory
+```
+
+* To transfer a local directory to HPSS
+
+```
+hsi put -R local_directory
+```
+
+* To send the file a.out to HPSS
+
+```
+hsi put a.out
+```
+
+* To put the file a.out in an pre-existing directory called MyHpssDir
+
+```
+hsi “cd MyHpssDir; put a.out”
+```
+
+* To retrieve a file, you could use
+
+```
+hsi get /proj/projectid/a.out
+```
