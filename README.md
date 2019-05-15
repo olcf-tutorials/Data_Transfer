@@ -12,3 +12,8 @@ Usually, a user wants to transfer data either between the OLCF systems, either t
 * If you organization is in your list, please choose it. This is the organization that you belong, not the one that you are using the resources.
 
 <div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/choose_organization.png?raw=true" width="65%"/></div>
+
+* Use your credential to logins (it depends on the institution that you work for)
+
+
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/choose_organization.png?raw=true" width="65%"/></div>
