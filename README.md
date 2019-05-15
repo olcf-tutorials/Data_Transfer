@@ -49,7 +49,7 @@ Globus provides a secure, unified interface to your research data. Use Globus to
 
 ## HPSS with Globus
 
-If you want to use the archiving system, HPSS with Globus, the only difference with above, is to declare a path on HPSS, and for example the archive of your project on HPSS, is under /proj/projid/username
+If you want to use the archiving system, HPSS with Globus, the only difference with above, is to declare a path on HPSS, and for example the archive of your project on HPSS, is under /proj/projid/username. Everythign else, as procedure is similar to above.
 
 <div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/globus_hpss_4_options.png?raw=true" width="75%"/></div>
 
