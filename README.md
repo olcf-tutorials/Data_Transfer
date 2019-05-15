@@ -31,3 +31,8 @@ Usually, a user wants to transfer data either between the OLCF systems, either t
 
 <div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/declare_path2.png?raw=true" width="65%"/></div>
 
+* Open a second panel to declare where your files would like to be transferred, select if you want an encrypt transfer, select your file/folder and click start
+
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/panels.png?raw=true" width="65%"/></div>
+
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/transfer_options.png?raw=true" width="65%"/></div>
