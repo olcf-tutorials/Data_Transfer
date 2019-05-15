@@ -20,29 +20,29 @@ Usually, a user wants to transfer data either between the OLCF systems, either t
 
 * Search for the OLCF DTN endpoint
 
-<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/search_endpoint.png?raw=true" width="65%"/></div>
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/search_endpoint.png?raw=true" width="75%"/></div>
 
 
-<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/search_endpoint2.png?raw=true" width="65%"/></div>
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/search_endpoint2.png?raw=true" width="75%"/></div>
 
 * Declare the path
 
-<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/declare_path1.png?raw=true" width="65%"/></div>
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/declare_path1.png?raw=true" width="75%"/></div>
 
-<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/declare_path2.png?raw=true" width="65%"/></div>
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/declare_path2.png?raw=true" width="75%"/></div>
 
 * Open a second panel to declare where your files would like to be transferred, select if you want an encrypt transfer, select your file/folder and click start
 
-<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/panels.png?raw=true" width="65%"/></div>
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/panels.png?raw=true" width="75%"/></div>
 
-<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/transfer_options.png?raw=true" width="65%"/></div>
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/transfer_options.png?raw=true" width="75%"/></div>
 
-<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/encrypt_start.png?raw=true" width="65%"/></div>
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/encrypt_start.png?raw=true" width="75%"/></div>
 
 * Then an activity report will appear and you can click on it to see the status. When the transfer is finished or failed, you will receive an email
 
-<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/activity1.png?raw=true" width="65%"/></div>
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/activity1.png?raw=true" width="75%"/></div>
 
-<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/activity2.png?raw=true" width="65%"/></div>
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/activity2.png?raw=true" width="75%"/></div>
 
 
