@@ -23,4 +23,9 @@ Usually, a user wants to transfer data either between the OLCF systems, either t
 <div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/search_endpoint.png?raw=true" width="65%"/></div>
 
 
-<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/search_endpoint.png?raw=true" width="65%"/></div>
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/search_endpoint2.png?raw=true" width="65%"/></div>
+
+* Declare the path
+
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/declare_path1.png?raw=true" width="65%"/></div>
+
