@@ -69,6 +69,8 @@ Go to the hpss folder
 cd hpss
 ```
 
+### HSI
+
 Examples of **hsi** command:
 
 * List your files
@@ -142,3 +144,20 @@ hsi rm -R forhpss
 
 Similar commands will be used if you have files in the /proj/projID/$USER, just adapt the path
 
+### HTAR 
+
+## SCP
+
+When you want to transfer files from or to outside the OLCF systems and there is no Globus, you can use the **scp** command. Always, use it from outside the OLCF resources in order to work
+
+* In order to transfer the file file.txt from your home folder to your local system, execute from your local system, while you declare your OLCF username:
+
+```
+scp username@dtn.ccs.ornl.gov:/ccs/home/username/file.txt .
+```
+
+To transfer from your local system to your home, execute:
+
+```
+scp file.txt $USER@dtn.ccs.ornl.gov:/ccs/home/username/
+```
