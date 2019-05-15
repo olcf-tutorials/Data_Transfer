@@ -5,6 +5,8 @@ Usually, a user wants to transfer data either between the OLCF systems, either t
 
 ## Globus
 
+Globus provides a secure, unified interface to your research data. Use Globus to start high-performance data transfers between systems within and across organizations while there is no need to be available until the transfer ends.
+
 * Visit the web page https://www.globus.org and click on the login button
 
 <div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/globus_first_page.png?raw=true" width="65%"/></div>
