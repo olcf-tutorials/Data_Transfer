@@ -146,6 +146,21 @@ Similar commands will be used if you have files in the /proj/projID/$USER, just 
 
 ### HTAR 
 
+The htar is used when there are many files to be compressed and interact with HPSS. When you have thousands files it is better to use htar than hsi as hsi will handle a bunch of files each time.
+
+* For example to compress folder forhpss and send it to HPSS
+
+```
+htar -cvf forhpss.tar forhpss/*
+``` 
+
+Now a file forhpss.tar is created and saved in HPSS.
+
+* Uncompress the forhpss.tar
+
+```
+htar -xvf forhpss.tar 
+```
 ## SCP
 
 When you want to transfer files from or to outside the OLCF systems and there is no Globus, you can use the **scp** command. Always, use it from outside the OLCF resources in order to work
