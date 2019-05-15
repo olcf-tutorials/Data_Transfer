@@ -36,3 +36,13 @@ Usually, a user wants to transfer data either between the OLCF systems, either t
 <div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/panels.png?raw=true" width="65%"/></div>
 
 <div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/transfer_options.png?raw=true" width="65%"/></div>
+
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/encrypt_start.png?raw=true" width="65%"/></div>
+
+* Then an activity report will appear and you can click on it to see the status. When the transfer is finished or failed, you will receive an email
+
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/activity1.png?raw=true" width="65%"/></div>
+
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/activity2.png?raw=true" width="65%"/></div>
+
+
