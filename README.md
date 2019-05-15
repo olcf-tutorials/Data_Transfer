@@ -86,6 +86,12 @@ You will see in the output something like:
 put  'smallfile.txt' : '/home/gmarkoma/smallfile.txt' ( 4 bytes, 1.3 KBS (cos=11))
 This means that it was successful.
 
+* Get the file
+
+```
+hsi get smallfile.txt
+```
+
 * Delete the file from the HPSS
 
 ```
@@ -110,32 +116,29 @@ hsi “cd testing; put smallfile.txt”
 hsi ls /home/$USER/testing/
 ```
 
+* To transfer the directory forhpss to HPSS
+
+```
+hsi put -R forhpss
+```
+
+* To retrieve the file called file.txt from /home/$USER/forhpss
+
+```
+hsi get /home/$USER/forhpss/file.txt
+```
+
 * Get a directory from HPSS to your current folder
 
 ```
-hsi get -R hpss_directory
+hsi get -R forhpss
 ```
 
-* To transfer a local directory to HPSS
+* Delelte the directory forhpss
 
 ```
-hsi put -R local_directory
+hsi rm -R forhpss
 ```
 
-* To send the file a.out to HPSS
+Similar commands will be used if you have files in the /proj/projID/$USER, just adapt the path
 
-```
-hsi put a.out
-```
-
-* To put the file a.out in an pre-existing directory called MyHpssDir
-
-```
-hsi “cd MyHpssDir; put a.out”
-```
-
-* To retrieve a file, you could use
-
-```
-hsi get /proj/projectid/a.out
-```
