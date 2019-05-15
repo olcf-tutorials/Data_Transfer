@@ -5,5 +5,10 @@ Usually, a user wants to transfer data either between the OLCF systems, either t
 
 ## Globus
 
+* Visit the web page https://www.globus.org and click on the login button
 
 <div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/globus_first_page.png?raw=true" /></div>
+
+* If you organization is in your list, please choose it. This is the organization that you belong, not the one that you are using the resources.
+
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/choose_organization.png?raw=true" /></div>
