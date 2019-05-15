@@ -15,5 +15,12 @@ Usually, a user wants to transfer data either between the OLCF systems, either t
 
 * Use your credential to logins (it depends on the institution that you work for)
 
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/credentials.png?raw=true" width="65%"/></div>
 
-<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/choose_organization.png?raw=true" width="65%"/></div>
+
+* Search for the OLCF DTN endpoint
+
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/search_endpoint.png?raw=true" width="65%"/></div>
+
+
+<div style="text-align:center"><img src="https://github.com/olcf-tutorials/Data_Transfer/blob/master/figures/search_endpoint.png?raw=true" width="65%"/></div>
